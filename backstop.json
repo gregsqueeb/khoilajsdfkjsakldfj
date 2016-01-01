@@ -3,7 +3,7 @@
     {
       "name": "tablet_h",
       "width": 1024,
-      "height": 768
+      "height": 2000
     }
   ],
   "scenarios": [
@@ -20,7 +20,30 @@
     },
     {
       "label": "http://instagram.com",
+      "url": "https://www.instagram.com/explore/tags/drifting/",
+      "hideSelectors": [],
+      "removeSelectors": [
+      ],
+      "readyEvent": null,
+      "delay": 500,
+      "misMatchThreshold" : 0.1,
+      "onReadyScript": "search.js"
+    },
+    {
+      "label": "http://instagram.com",
       "url": "https://www.instagram.com/explore/tags/240sx/",
+      "hideSelectors": [],
+      "removeSelectors": [
+      ],
+      "readyEvent": null,
+      "delay": 500,
+      "misMatchThreshold" : 0.1,
+      "onReadyScript": "search.js"
+    }
+    ,
+    {
+      "label": "http://instagram.com",
+      "url": "https://www.instagram.com/explore/tags/s14/",
       "hideSelectors": [],
       "removeSelectors": [
       ],
